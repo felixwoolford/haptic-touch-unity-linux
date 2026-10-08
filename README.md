@@ -74,4 +74,4 @@ vibration-cap correction remain TODOs, not completed fixes.
 
 ## Disclaimer
 
-I am not affiliated with 3DSystems or the developers of HapticsDirect in any way. I am a researcher using the devices for scientific study and don't like having to maintain a Windows build just for these.
+I am not affiliated with 3DSystems or the developers of HapticsDirect in any way. I am a researcher using the devices for scientific study and just didn't like having to maintain a Windows build just for the Unity plugin (which is quite good!).
