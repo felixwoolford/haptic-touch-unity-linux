@@ -3,7 +3,7 @@
 A Linux x86-64 native plugin for the existing `HapticPlugin.cs` Unity scripts.
 The C# imports work unchanged with `libHapticsDirect.so`.
 
-The aim of this plugin is to allow projects using Touch or Touch X devices previously developped in Windows to also work identically in Linux. A few obvious bugs from the Windows version have also been corrected. A later tool will introduce new features and C# scripts that are not compatible with the Windows DLL.
+The aim of this plugin is to allow projects using Touch or Touch X devices previously developed in Windows to also work identically in Linux. A few obvious bugs from the Windows version have also been corrected. A later tool will introduce new features and C# scripts that are not compatible with the Windows DLL.
 
 The plugin is **black-box tested against the original Windows
 `HapticsDirect.dll`**: identical scripted devices and calls are run through
@@ -71,3 +71,7 @@ Linux also checks and updates device calibration on the scheduler thread,
 without blocking while manual input is required. Hardware validation remains
 necessary. Full snapshot/list thread safety, soft-band ramp correction and
 vibration-cap correction remain TODOs, not completed fixes.
+
+## Disclaimer
+
+I am not affiliated with 3DSystems or the developers of HapticsDirect in any way. I am a researcher using the devices for scientific study and don't like having to maintain a Windows build just for these.
