@@ -1,4 +1,4 @@
-# HapticsDirect for Linux
+# A drop-in replacement for using the HapticsDirect unity plugin in Linux
 
 A Linux x86-64 native plugin for the existing `HapticPlugin.cs` Unity scripts.
 The C# imports work unchanged with `libHapticsDirect.so`.
