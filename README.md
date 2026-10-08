@@ -5,8 +5,7 @@ The C# imports work unchanged with `libHapticsDirect.so`.
 
 The aim of this plugin is to allow projects using Touch or Touch X devices previously developed in Windows to also work identically in Linux. A few obvious bugs from the Windows version have also been corrected. A later tool will introduce new features and C# scripts that are not compatible with the Windows DLL.
 
-The plugin is **black-box tested against the original Windows
-`HapticsDirect.dll`**: identical scripted devices and calls are run through
+The plugin is **black-box tested against the original Windows dll**: identical scripted devices and calls are run through
 both implementations, comparing HD force outputs and API results. Tests use
 fake devices, not hardware. Documented fixes intentionally differ from DLL bugs;
 see below. The current regression suite covers 581 standing cases and 2,048 seeded cases. This does not validate physical
