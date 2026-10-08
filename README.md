@@ -37,8 +37,7 @@ If the SDK is in a nonstandard location, supply its include/library paths with
    `Assets/3DSystems/HapticsDirect/HapticPlugin/` directory (or its equivalent if you moved
    the Haptics Direct assets).
 3. In this **Linux-only deployment copy**, delete all Windows native `.dll`
-   files from the HapticPlugin directory, including `HapticsDirect.dll` and
-   `hd.dll`. 
+   files from the HapticPlugin directory.
 4. Reopen Unity. In the `.so` Plugin Inspector, enable Linux Editor/Standalone,
    select x86-64, and disable other platforms. Keep `HapticPlugin.cs` unchanged.
 
