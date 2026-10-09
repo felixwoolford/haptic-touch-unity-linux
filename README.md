@@ -43,7 +43,7 @@ If the SDK is in a nonstandard location, supply its include/library paths with
 
 ## Bug fixes
 
-- All published contacts contribute to force output, rather than only the last;
+- **Multiple objects can now be felt at once.** This is the most obvious bug in the original dll. Previously, contact with multiple objects would cause the cursor to fall through the earlier contact. Now, all published contacts contribute to force output, rather than only the last;
   contact-force getters report current sums and clear when there are no contacts.
 - `setForce` now renders the supplied force, with component clamping and scaling
   by the device's maximum force. Torque output is not implemented.
@@ -71,4 +71,4 @@ vibration-cap correction remain TODOs, not completed fixes.
 
 ## Disclaimer
 
-I am not affiliated with 3DSystems or the developers of HapticsDirect in any way. I am a researcher using the devices for scientific study and just didn't like having to maintain a Windows build just for the Unity plugin (which is quite good!).
+I am not affiliated with 3DSystems or the developers of HapticsDirect in any way. I am a researcher using the devices for scientific study and just didn't like having to maintain a Windows build just for the Unity plugin.
